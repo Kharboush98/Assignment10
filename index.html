@@ -134,37 +134,37 @@
         <!-- Menu items -->
         <div class="nav-links flex gap-8 items-center" role="menubar">
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#hero-section"
             role="menuitem"
             >الرئيسية</a
           >
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#about"
             role="menuitem"
             >عني</a
           >
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#portfolio"
             role="menuitem"
             >الأعمال</a
           >
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#experience"
             role="menuitem"
             >الخبرة</a
           >
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#testimonials"
             role="menuitem"
             >التوصيات</a
           >
           <a
-            class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
+            class="tab text-slate-600 dark:text-slate-300 hover:text-primary transition-colors duration-300 text-lg"
             href="#contact"
             role="menuitem"
             >تواصل</a
@@ -203,7 +203,7 @@
          ============================================ -->
       <section
         id="hero-section"
-        class="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16"
+        class="page relative min-h-screen flex items-center overflow-hidden pt-24 pb-16"
         aria-labelledby="hero-title"
       >
         <!-- Background Elements -->
@@ -486,7 +486,7 @@
 
       <section
         id="about"
-        class="py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
         aria-labelledby="about-title"
       >
         <!-- Background decorations -->
@@ -765,7 +765,7 @@
          ============================================ -->
       <section
         id="skills-section"
-        class="py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
         aria-labelledby="skills-title"
       >
         <div
@@ -996,7 +996,7 @@
         ============================================ -->
       <section
         id="portfolio"
-        class="py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
         aria-labelledby="portfolio-title"
       >
         <div
@@ -1683,7 +1683,7 @@
         ============================================ -->
       <section
         id="experience"
-        class="experience-section py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
+        class="page experience-section py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
         aria-labelledby="experience-title"
       >
         <div
@@ -1961,7 +1961,7 @@
          ============================================ -->
       <section
         id="testimonials"
-        class="py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
         aria-labelledby="testimonials-title"
       >
         <div
@@ -2405,7 +2405,7 @@
          ============================================ -->
       <section
         id="statistics-section"
-        class="py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
       >
         <div class="container mx-auto max-w-7xl relative z-10">
           <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -2470,7 +2470,7 @@
          ============================================ -->
       <section
         id="contact"
-        class="py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
+        class="page py-24 px-4 md:px-8 bg-white dark:bg-slate-900/50 relative overflow-hidden"
         aria-labelledby="contact-title"
       >
         <div
@@ -3192,6 +3192,40 @@
               aria-label="اختيار لون الثيم"
             >
               <!-- Javascript will populate this -->
+               <button
+                  class="color-option w-10 h-10 rounded-full border-2 border-transparent transition-all"
+                  data-color="#8b5cf6" 
+                  aria-checked="true"
+                  style="background-color: #8b5cf6;"
+                ></button>
+                
+                <button
+                  class="color-option w-10 h-10 rounded-full border-2 border-transparent transition-all"
+                  data-color="#f59e0b"
+                  aria-checked="false"
+                  style="background-color: #f59e0b;"
+                ></button>
+
+                <button
+                  class="color-option w-10 h-10 rounded-full border-2 border-transparent transition-all"
+                  data-color="#10b981"
+                  aria-checked="false"
+                  style="background-color: #10b981;"
+                ></button>
+
+                <button
+                  class="color-option w-10 h-10 rounded-full border-2 border-transparent transition-all"
+                  data-color="#ec4899"
+                  aria-checked="false"
+                  style="background-color: #ec4899;"
+                ></button>
+
+                <button
+                  class="color-option w-10 h-10 rounded-full border-2 border-transparent transition-all"
+                  data-color="#2563eb"
+                  aria-checked="false"
+                  style="background-color: #2563eb;"
+                ></button>
             </div>
           </div>
         </div>
